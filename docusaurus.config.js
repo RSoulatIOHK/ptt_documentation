@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'IOG', // Usually your GitHub org/user name.
-  projectName: 'dapps-certification', // Usually your repo name.
+  organizationName: 'RSoulatIOHK', // Usually your GitHub org/user name.
+  projectName: 'ptt_documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -131,4 +131,11 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {
+  title: 'PTT Documentation',
+  url: 'http://rsoulatiohk.github.io/', // Your website URL
+  baseUrl: '/',
+  projectName: 'ptt-documentation',
+  organizationName: 'RSoulatIOHK',
+  trailingSlash: false,
+};
