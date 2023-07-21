@@ -20,4 +20,5 @@ Login into your wallet using the Connect button as shown below
 Clicking on Connect Wallet, you will be presented with the wallets installed within your browser that can be connected to our tool. Click on the appropriate wallet card to continue to the tool. 
 
 At this point, you will see a popup within the wallet extension asking you to Sign a message with a timestamp for an additional layer of security over the connected wallet. You will have to Sign this within a 60 seconds timeout, which once expired have to Connect to the wallet again.
-[SCREENSHOT]
+
+![](./img/screenshots/signing_wallet.png)
