@@ -29,7 +29,9 @@ The user is assumed to have familiarity with either the [Plutus contract model](
 
 At the moment some features of the tool are only available on a specific backend. However, we are working on having all of the features available for all of the backends. 
 
-**📝 NOTE: The tool accessible online currently does not support cooked-validators. However, you can access it with the [minimal-ptt-examples](https://github.com/Ali-Hill/minimal-ptt-examples/) repository. It will be integrated into the tool for the next release.**
+:::note
+The tool accessible online currently does not support cooked-validators. However, you can access it with the [minimal-ptt-examples](https://github.com/Ali-Hill/minimal-ptt-examples/) repository. It will be integrated into the tool for the next release.**
+:::
 
 Here is a table with each feature and their respective availability:
 
@@ -56,7 +58,9 @@ Here is a table with each feature and their respective availability:
 
 A more detailed view of the vulnerabilities we address can be found in the [Vulnerabilities](/docs/backend/list-vulnerabilities.md) section.
 
-**📝 NOTE:  Some of those features can be demonstrated on request but are not yet integrated in the tool. Please contact us if you are interested in seeing them.**
+:::note
+Some of those features can be demonstrated on request but are not yet integrated in the tool. Please contact us if you are interested in seeing them.**
+:::
 
 ### Quickstart
 
