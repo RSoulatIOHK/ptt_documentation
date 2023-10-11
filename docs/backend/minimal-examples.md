@@ -17,5 +17,5 @@ It is a simple example that builds for the tool. All the Property Based Testing 
 
 * The `auction-cooked` branch contains an auction contract example for cooked-validators. The online version of the tool does **not** support it at the moment. An interested user can contact us to get a demonstration of the testing tool on this contract.
 
-* The `escrow-cooked` branch contains an escrow contract example for cooked-validators. The online version of the tool does **not** support it at the moment. An interested user can contact us to get a demonstration of the testing tool on this contract.
+* The `escrow-cooked` branch contains an escrow contract example for cooked-validators. It defines a `certification` object for `cooked-validators`. The online version of the tool does **not** support it at the moment. An interested user can contact us to get a demonstration of the testing tool on this contract.
 
