@@ -9,7 +9,7 @@ This page will describe the main features of the tool and link to the various ot
 ## What is the Plutus Testing Tool?
 
 The Plutus Testing Tool is a tool that allows you to test your Plutus contracts in a simulated environment. It is a web application that you can access at [Plutus Testing Tool](https://dapps-certification-web.scdev.aws.iohkdev.io/).
-Plutus Testing Tool is based on Property Based Testing (PBT). Property-Based-Testing is a testing methodology that allows you to test your code by specifying properties that should hold for all inputs. A tool based on PBT will then generate random actions and check that the properties hold for all of them. If a property does not hold, the tool will generate a counterexample that will help you debug your code.
+Plutus Testing Tool is based on Property Based Testing (PBT). Property-Based-Testing is a testing methodology that allows you to test your code by specifying properties that should hold for all inputs. A tool based on PBT will then generate random actions and check that the properties hold for all of them. If the tool finds that a property does not hold, it will generate a counterexample that will help you debug your code.
 
 The tool comes with a set of predefined properties that you can use to test your contracts. You can find more information about them in the Properties part of the [Certification Object](/docs/backend/certification-object.md) section.
 
