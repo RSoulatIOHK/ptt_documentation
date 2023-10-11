@@ -30,7 +30,7 @@ The user is assumed to have familiarity with either the [Plutus contract model](
 At the moment some features of the tool are only available on a specific backend. However, we are working on having all of the features available for all of the backends. 
 
 :::note
-The tool accessible online currently does not support cooked-validators. However, you can access it with the [minimal-ptt-examples](https://github.com/Ali-Hill/minimal-ptt-examples/) repository. It will be integrated into the tool for the next release.**
+The tool accessible online currently does not support cooked-validators. However, you can access it with the [minimal-ptt-examples](https://github.com/Ali-Hill/minimal-ptt-examples/) repository. It will be integrated into the tool for the next release.
 :::
 
 Here is a table with each feature and their respective availability:
@@ -59,7 +59,7 @@ Here is a table with each feature and their respective availability:
 A more detailed view of the vulnerabilities we address can be found in the [Vulnerabilities](/docs/backend/list-vulnerabilities.md) section.
 
 :::note
-Some of those features can be demonstrated on request but are not yet integrated in the tool. Please contact us if you are interested in seeing them.**
+Some of those features can be demonstrated on request but are not yet integrated in the tool. Please contact us if you are interested in seeing them.
 :::
 
 ### Quickstart
@@ -70,6 +70,9 @@ They can be used as examples for the contract model, either with Plutus apps or 
 
 The different libraries used for these examples are cached, which means the build time should be minimal.
 
+### Generating certificates
+
+After a succesful test run, the tool will offer to generate a CIP-0096 compliant certificate. The tool currently generates a level 0 certificate (simple audit) with attached the full Json file of the test run. 
 ### Support & Feedback
 
 If you need support, you should have received a link to a Slack channel when subscribing. If that is not the case, please send an email to: support.
