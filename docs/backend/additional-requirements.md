@@ -4,14 +4,25 @@ sidebar_position: 4
 
 # Additional Requirements
 ## Nix
-In order for the tool to build the project the nix flake needs to be exposed for the DApp. It is assumed that the flake is exposed to a variable called `iog.dapp`. In the minimal examples repo[link] the flake for the haskell project is called `rootProject`. The flake is exposed in the minimal example by the adding following code to `flake.nix`:
+In order for the tool to build the project the nix flake needs to be exposed for the DApp. It is assumed that the flake is exposed to a variable called `iog.dapp`. 
+
+### [IOGX](https://github.com/input-output-hk/iogx)
+
+If you are using the IOGX flake template then you can expose the project by adding the following line to the `per-system-outputs.nix` file:
+
+```nix
+iog.dapp = projects.ghc8107;
+```
+
+An example repo using iogx can be found [here](https://github.com/Ali-Hill/minimal-ptt-examples/tree/escrow-iogx).
+
+### Other Nix Setups
+
+In all other nix setups you want to expose the project in your nix flake. In the [minimal examples repo](https://github.com/Ali-Hill/minimal-ptt-examples) the flake for the haskell project is called `rootProject`.  The project is then exposed in the minimal example by the adding following code to `flake.nix`:
 
 ```nix
 iog.dapp = rootProject;
-})) // {
-iog.dapp = self.legacyPackages.x86_64-linux;
 ```
-It is only necessary for the DApp to be able to build on an x86_64 linux architecture.
 
 ## Cabal
 
